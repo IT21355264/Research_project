@@ -23,7 +23,7 @@ const Signup = () => {
 
   const handleSignup = async () => {
     try {
-      await axios.post("http://localhost:5000/api/auth/register", {
+      await axios.post("https://research-project-iota.vercel.app/api/auth/register", {
         name,
         email,
         age,
