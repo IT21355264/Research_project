@@ -79,7 +79,7 @@ function Home() {
       }
 
       try {
-        await axios.get("http://localhost:5000/api/auth/profile", {
+        await axios.get("https://research-project-iota.vercel.app/api/auth/profile", {
           headers: { Authorization: `Bearer ${token}` },
         });
       } catch (err) {
