@@ -37,7 +37,7 @@ const Profile = () => {
 
       try {
         const profileResponse = await axios.get(
-          "http://localhost:5000/api/auth/profile",
+          "https://research-project-iota.vercel.app/api/auth/profile",
           {
             headers: { Authorization: `Bearer ${token}` },
           }
