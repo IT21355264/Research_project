@@ -72,7 +72,7 @@ const Profile = () => {
     const token = localStorage.getItem("token");
     try {
       const res = await axios.put(
-        "http://localhost:5000/api/auth/update",
+        "https://research-project-iota.vercel.app/api/auth/update",
         formData,
         {
           headers: { Authorization: `Bearer ${token}` },
