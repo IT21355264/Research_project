@@ -136,7 +136,7 @@ function Home() {
       setLoading(true);
       const token = localStorage.getItem("token");
       const response = await axios.post(
-        "http://192.168.1.100:5002/segment_and_recognize",
+        "http://192.168.1.2:5002/segment_and_recognize",
         formData,
         {
           headers: {
