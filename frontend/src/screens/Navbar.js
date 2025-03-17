@@ -21,7 +21,7 @@ const Navbar = () => {
           sx={{ flexGrow: 1, cursor: "pointer" }}
           onClick={() => navigate("/")}
         >
-          Handwritten Reco ✏️
+          BioScroller   ✏️
         </Typography>
 
         {/* Conditional Rendering */}
